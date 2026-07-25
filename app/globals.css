@@ -622,15 +622,17 @@ input:focus,select:focus{outline:none;border-color:var(--green)}
 
 /* ===== Dark Mode (neutral surfaces + Emerald-Akzent, NEOS-Guideline) ===== */
 [data-theme="dark"]{
-  /* NEOS Dark — Anker-Palette (Kontrakt) */
-  --bg:#0C110D;--surface:#151C16;--thead:#1C251D;
-  --ink:#EAF0E6;--muted:#AEB6A8;--muted2:#7C8676;--line:#2B352C;--line2:#222A23;
-  --green:#95C11F;                 /* Flaschengrün-Text/Icon hebt auf Dunkel → Fresh-Green (Kontrakt) */
-  --emerald:#34d399;--emerald-bg:#10231b;--emerald-bd:#1f4435;
-  --amber-bg:#241d0e;--amber-bd:#4a3a16;--red:#E5645C;--red-bg:#2a1414;
-  --r1:#34D399;--r2:#10B981;--r3:#059669;--track2:rgba(255,255,255,.07);
-  --pos:#4FBF67;--neg:#E5645C;--warn:#E4AE4A;
+  /* NEOS Dark — „Deep Forest Refined" (DS-Vorlage NEOS-FX-DS-Dark) */
+  --bg:#111312;--surface:#1B1D1C;--thead:#272A28;
+  --ink:#EAF0E6;--muted:#A7B0A2;--muted2:#7C8676;--line:#313431;--line2:#272A28;
+  --green:#95C11F;                 /* Flaschengrün-Text/Icon hebt auf Dunkel → Fresh-Green */
+  --emerald:#34C75A;--emerald-bg:#18271B;--emerald-bd:#1f4435;
+  --amber-bg:#2A2410;--amber-bd:#4a3a16;--red:#E5645C;--red-bg:#2A1A19;
+  --r1:#0E9A4A;--r2:#1F9F4A;--r3:#34C75A;--track2:rgba(255,255,255,.07);
+  --pos:#4FBF67;--neg:#E5645C;--warn:#E0B100;
 }
+/* Datenserien vertikal (Monatschart) im Dark: luminanz-angehobenes Emerald */
+[data-theme="dark"] .mc2-bar{background:linear-gradient(180deg,#34C75A 0%,#0E9A4A 100%)}
 /* Ausschluss: erzeugte Dokumente/PDF/Mail/Druck bleiben hell */
 [data-theme="dark"] .neos-force-light,.neos-force-light{
   --bg:#F6F7F2;--surface:#FFFFFF;--thead:#EDEFE8;
