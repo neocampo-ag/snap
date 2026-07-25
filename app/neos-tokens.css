@@ -64,34 +64,34 @@
 }
 
 .neos.dark, [data-theme="dark"] .neos {
-  /* NEOS Dark — Anker-Palette (Kontrakt) */
-  --bg: #0C110D;
-  --canvas: #0A140A;          /* Karten-Grund im Dark (Kontrakt) */
-  --card: #151C16;
-  --card-alt: #1C251D;
-  --sunken: #1C251D;
-  --border: #2B352C;
-  --border-soft: #222A23;
-  --border-btn: #33402F;
-  --border-card: #2B352C;
+  /* NEOS Dark — „Deep Forest Refined" (DS-Vorlage NEOS-FX-DS-Dark) */
+  --bg: #111312;
+  --canvas: #0D0F0D;          /* tiefste Ebene (unter der Content-Fläche) */
+  --card: #1B1D1C;
+  --card-alt: #212422;
+  --sunken: #272A28;
+  --border: #313431;
+  --border-soft: #272A28;
+  --border-btn: #313431;
+  --border-card: #353833;
   --text: #EAF0E6;
-  --text-2: #AEB6A8;
+  --text-2: #A7B0A2;
   --text-3: #7C8676;
   --green: #2C3C2B;           /* Marken-Fläche (z. B. KPI-Hero) bleibt Flaschengrün */
   --green-2: #3E5A3A;
   --green-soft: #1F251D;
   --green-ink: #95C11F;       /* Flaschengrün-Text/Icon auf Dunkel → Fresh-Green */
-  --bar-from: #059669;
-  --bar-to: #34D399;
+  --bar-from: #0E9A4A;
+  --bar-to: #34C75A;
   --yellow: #FAD201;
-  --yellow-ink: #2C3C2B;      /* Ink auf Gelb bleibt Flaschengrün (Kontrakt) */
+  --yellow-ink: #2C3C2B;      /* Ink auf Gelb bleibt Flaschengrün */
   --success: #4FBF67;
-  --success-bg: #18251C;
-  --warning: #E4AE4A;
-  --warning-bg: #2C2610;
+  --success-bg: #18271B;
+  --warning: #E0B100;
+  --warning-bg: #2A2410;
   --error: #E5645C;
-  --error-bg: #2C1B18;
-  --locate: #5B97D9;
+  --error-bg: #2A1A19;
+  --locate: #6BA6E8;
 }
 /* Ausschluss hell innerhalb .neos */
 [data-theme="dark"] .neos.neos-force-light, .neos.neos-force-light, [data-theme="dark"] .neos-force-light .neos {
