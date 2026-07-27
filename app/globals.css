@@ -638,6 +638,7 @@ input:focus,select:focus{outline:none;border-color:var(--green)}
   --bg:#F6F7F2;--surface:#FFFFFF;--thead:#EDEFE8;
   --ink:#1B211A;--muted:#5E665B;--muted2:#8C937F;--line:#E4E7DE;--line2:#EDEFE8;
   --green:#2C3C2B;--red:#C0392B;--pos:#009A17;--neg:#C0392B;--warn:#C2700C;
+  --emerald:#2C7A43;--emerald-bg:#E7F0E8;--emerald-bd:#c7e0cd;--red-bg:#FDE8E4;--yellow:#FAD201;
 }
 /* CTAs behalten dunkles Bottle-Green auf Gelb (Kontrast) */
 [data-theme="dark"] .btn:not(.ghost),[data-theme="dark"] .sb-cta,[data-theme="dark"] .dz-btn{color:#2C3C2B}

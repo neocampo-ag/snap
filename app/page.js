@@ -47,7 +47,7 @@ function Login() {
     } catch (e2) { setErr(e2.message || "Fehler"); } finally { setBusy(false); }
   }
   return (
-    <div className="auth">
+    <div className="auth neos-force-light">
       <div className="auth-hero">
         <div className="auth-glow" />
         <div className="ah-body">
