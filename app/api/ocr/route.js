@@ -82,7 +82,7 @@ export async function POST(req) {
       doc_date: /^\d{4}-\d{2}-\d{2}$/.test(parsed.doc_date) ? parsed.doc_date : new Date().toISOString().slice(0, 10),
       gross: num(parsed.gross),
       net: num(parsed.net),
-      vat_rate: num(parsed.vat_rate) ?? 19,
+      vat_rate: num(parsed.vat_rate) ?? 21,
       vat_amount: num(parsed.vat_amount),
       currency: normCur(parsed.currency),
       invoice_no: (parsed.invoice_no || "").toString().trim() || null,
